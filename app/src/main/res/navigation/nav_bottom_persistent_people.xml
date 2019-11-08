@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentPeople"
+    app:startDestination="@id/fragmentPeople">
+
+    <fragment
+        android:id="@+id/fragmentPeople"
+        android:name="com.example.demonavigationcontroller.navbottompersistent.Fragment2"
+        android:label="Fragment2"
+        tools:layout="@layout/fragment2" />
+
+</navigation>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DemoNavigationController</string>
+    <string name="navigation_controller">Navigation Controller In-Depth</string>
+    <string name="navigation_controller_bottomnav">Navigation Controller BottomNav</string>
+    <string name="navigation_controller_bottomnav_persistent">Navigation Controller BottomNav Persistent</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="viewpager2">ViewPager 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigate_forward">Navigate forward</string>
+    <string name="people">People</string>
+    <string name="home">Home</string>
+    <string name="fragment1">Fragment 1</string>
+    <string name="fragment2">Fragment 2</string>
+    <string name="fragment3">Fragment 3</string>
+    <string name="dead_end">Dead End</string>
+    <string name="itemX">Item %1$d</string>
+    <string name="album">Album</string>
+</resources>

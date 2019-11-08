@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nav_controller"
+        android:background="#ffaaaa"
+        android:text="@string/navigation_controller"
+        style="@style/OptionsTextStyle" />
+
+    <TextView
+        android:id="@+id/nav_controller_bottomnav"
+        android:background="#aaffaa"
+        android:text="@string/navigation_controller_bottomnav"
+        style="@style/OptionsTextStyle" />
+
+    <TextView
+        android:id="@+id/nav_controller_bottomnav_persistent"
+        android:background="#afafaa"
+        android:text="@string/navigation_controller_bottomnav_persistent"
+        style="@style/OptionsTextStyle" />
+
+    <TextView
+        android:id="@+id/view_pager"
+        android:background="#aaaaff"
+        android:text="@string/viewpager"
+        style="@style/OptionsTextStyle" />
+
+    <TextView
+        android:id="@+id/view_pager2"
+        android:background="#dddd88"
+        android:text="@string/viewpager2"
+        style="@style/OptionsTextStyle" />
+</LinearLayout>
