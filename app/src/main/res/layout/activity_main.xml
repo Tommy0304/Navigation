@@ -3,37 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#eeeeee"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/nav_controller"
+        style="@style/OptionsTextStyle"
         android:background="#ffaaaa"
-        android:text="@string/navigation_controller"
-        style="@style/OptionsTextStyle" />
+        android:layout_margin="16dp"
+        android:text="@string/navigation_controller" />
 
     <TextView
         android:id="@+id/nav_controller_bottomnav"
+        style="@style/OptionsTextStyle"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
         android:background="#aaffaa"
-        android:text="@string/navigation_controller_bottomnav"
-        style="@style/OptionsTextStyle" />
+        android:text="@string/navigation_controller_bottomnav" />
 
     <TextView
         android:id="@+id/nav_controller_bottomnav_persistent"
+        style="@style/OptionsTextStyle"
         android:background="#afafaa"
-        android:text="@string/navigation_controller_bottomnav_persistent"
-        style="@style/OptionsTextStyle" />
+        android:layout_margin="16dp"
+        android:text="@string/navigation_controller_bottomnav_persistent" />
 
     <TextView
         android:id="@+id/view_pager"
+        style="@style/OptionsTextStyle"
         android:background="#aaaaff"
-        android:text="@string/viewpager"
-        style="@style/OptionsTextStyle" />
+        android:layout_margin="16dp"
+        android:text="@string/viewpager" />
 
     <TextView
         android:id="@+id/view_pager2"
+        style="@style/OptionsTextStyle"
         android:background="#dddd88"
+        android:layout_margin="16dp"
         android:text="@string/viewpager2"
-        style="@style/OptionsTextStyle" />
+        android:visibility="gone" />
 </LinearLayout>
